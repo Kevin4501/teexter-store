@@ -1,0 +1,65 @@
+.card{
+    background-color: rgb(69 69 69);
+    padding : 10px 20px;
+    border-radius : 10px;
+    box-shadow: hsla(240, 0%, 4%, 10) 0px 7px 29px 0px;
+    
+}
+.card-name {
+    position: absolute;
+    background-color: white;
+    border-radius: 7px;
+    font-family: "Josefin Slab";
+}
+.card-content{
+    display:flex;
+    justify-content:  space-between
+
+}
+.card-price{
+    font-family: "Josefin Slab";
+    height: 25px;
+    width: 50px;
+    color: blanchedalmond;
+}
+.card-button{
+    font-weight: bold;
+    color: black;
+    font-family: "Josefin Slab";
+    width: 100px;
+    height: 30px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.add-sub-buttons{
+    color: black; margin-top:15px
+}
+.add-button{
+    border-radius: 10px;
+    background-color: rgb(115, 115, 115);
+    box-shadow: hsla(240, 0%, 4%, 10) 0px 7px 29px 0px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.sub-button{
+    border-radius: 10px;
+    background-color: rgb(115, 115, 115);
+    box-shadow: hsla(240, 0%, 4%, 10) 0px 7px 29px 0px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.quantity{
+    padding:10px 10px;
+    color:'white'
+}

@@ -1,0 +1,10 @@
+.filter-box{
+    background-color: rgb(69, 69, 69);
+    color: bisque;
+    width: 100%;
+    border: 2px;
+    border-radius: 10px;
+    border-color: rgb(2, 2, 2);
+    box-shadow: hsla(240, 0%, 4%, 10) 0px 7px 29px 0px;
+   
+}

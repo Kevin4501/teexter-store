@@ -1,0 +1,55 @@
+.outerDiv{
+    display:flex;
+    gap:1rem;
+    background-color: rgb(69 69 69);
+    padding : 10px 20px;
+    border-radius : 10px;
+    box-shadow: hsla(240, 0%, 4%, 10) 0px 7px 29px 0px;
+}
+.name , .price{
+    font-family: "Josefin Slab";
+    color: rgb(209, 207, 212);
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 2px 2px #FF0000;
+    border-radius: 20px;
+}
+.cartImage{
+    width: 150px;
+    height: 150px;
+    border: black;
+    border-radius: 20px;
+    box-shadow: hsla(240, 0%, 4%, 10) 0px 7px 29px 0px;
+}
+.name-price{
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center
+}
+.options{
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center; 
+}
+.delete-button{
+    display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center
+}
+.delete{
+    display: flex;
+    background-color: rgb(115, 115, 115);
+    box-shadow: hsla(240, 0%, 4%, 10) 0px 7px 29px 0px;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
